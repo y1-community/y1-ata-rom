@@ -10,15 +10,16 @@ Including History.ini also helps ensure that when users opt to trigger the SP Fl
 
 3. Compress the collective package as an appropriately named zip archive with the Deflate compression method on max settings, this will minimize a user's download time for the ROM
 
-4. Name the file as below depending on the hardware your firmware targets
+4. Name the file as below depending on the hardware your firmware targets:
+   
 Y1 Type A (Most common hardware variants, came with OS 2.0.0 and later): rom.zip
 Y1 Type B (Early hardware revision in low numbers) rom_type_b.zip
 Y2: rom_y2.zip
 
-5. Host your zip(s) on a GitHub Repository
+6. Host your zip(s) on a GitHub Repository
 
 6, Point [Updater's manifest](https://github.com/y1-community/Innioasis-Updater/blob/main/slidia_manifest.xml)  to your Repo - this adds your firmware to the list of firmwares available - one line per model supported, all zips for each hardware model / revision can be placed in same release if you like - or as separate releases / different repos etc)
 
 To do 6. you'll need to fork the Innioasis-Updater repo and submit a PR with your manifest changes.
 
-Once the 6 steps are completed users will see their firmware listed in Updater in 24-48 hours as their Updater clients grab new manifests - this will usually happen on their next launch unless they use Updater frequently
+Once the 6 steps are completed users and the PR merged by the maintainers of Updater, users will see their firmware listed in Updater in 24-48 hours as their Updater clients grab new manifests - this will usually happen instantly on their next launch of Updater unless they use Updater frequently.
