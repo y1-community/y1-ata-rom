@@ -4,7 +4,7 @@ Step one is crucial to ensuring your firmware package can be installed with any 
 
 1: Ensure cache.img, userdata.img and system.img are desparsed using simg2img (MTKclient which is used to install mediatek firmwares on macOS and Linux prefers desparsed images as opposed to the sparseimages)
 
-2. (`[Zip Template Here](https://github.com/y1-community/myLauncher/releases/download/1.2/rom_y2.zip)`) Include a copy of SP Flash Tool and the pre-configured history.ini file - this offers users a portable, one-click install for SP Flash Tool on Windows systems without needing updater, they can extract directly from Zip if they like, by including these in your rom_y2.zip
+2. ( [Zip Template Here](https://github.com/y1-community/myLauncher/releases/download/1.2/rom_y2.zip) ) Include a copy of SP Flash Tool and the pre-configured history.ini file - this offers users a portable, one-click install for SP Flash Tool on Windows systems without needing updater, they can extract directly from Zip if they like, by including these in your rom_y2.zip
 
 Including History.ini also helps ensure that when users opt to trigger the SP Flash Tool GUI from Updater (often done for trouble shooting purposes) they'll be presented with a pre-configured SP Flash GUI which due to history.ini's relative file paths will correctly find the files needed for flashing without displaying any error messages about files not being found)
 
