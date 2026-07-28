@@ -1,4 +1,4 @@
-#Y1 Firmware Package Preparation Information: 
+# Y1 Firmware Package Preparation Information: 
 
 Step one is crucial to ensuring your firmware package can be installed with any operating system, such as macOS where MTKclient is used to install firmwares on Y1  (Y1-only for now in Updater for Mac until Y2 flashing via MTKclient is figured out)
 
